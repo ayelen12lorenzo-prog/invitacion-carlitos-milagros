@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Carlos & Milagros</title>
+    <title>Carlitos & Milagros</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <!-- ===================== -->
+    <!-- PORTADA -->
+    <!-- ===================== -->
+
     <main class="portada">
+
+        <div class="portada-imagen"></div>
+
+        <div class="portada-overlay"></div>
 
         <div class="contenido">
 
@@ -24,356 +33,450 @@
             </h1>
 
             <p class="frase">
-                Lo que comenzò con un encuentro<br>
-                Hoy se convierte en un Pacto
+                Tenemos el honor de invitarte<br>
+                a celebrar nuestro amor.
             </p>
 
             <button onclick="entrarInvitacion()">
-                PULSAR EL BOTON PARA ABRIR
+                DESCUBRIR INVITACIÓN
             </button>
 
         </div>
 
     </main>
-<section class="bienvenida">
 
-    <div class="seccion-contenido">
 
-        <p class="pequeno">NUESTRO DÍA</p>
+    <!-- ===================== -->
+    <!-- NUESTRA HISTORIA -->
+    <!-- ===================== -->
 
-        <h2>Estamos felices<br>de compartirlo con vos</h2>
+    <section class="bienvenida">
 
-        <div class="separador"></div>
+        <div class="seccion-contenido">
 
-        <p class="texto">
+            <p class="pequeno">NUESTRA HISTORIA</p>
 
-        </p>
+            <h2>
+                Estamos felices<br>
+                de compartirlo con vos
+            </h2>
 
-        <p class="nombres">
-            Carlitos & Milagros
-        </p>
+            <div class="separador"></div>
 
-    </div>
+            <p class="texto">
+                Después de tantos momentos compartidos,
+                llegó el día de celebrar nuestro amor junto
+                a las personas que queremos.
+            </p>
 
-</section>
-  <section class="detalles">
-<section class="cuenta-regresiva">
+            <p class="nombres">
+                Carlitos & Milagros
+            </p>
 
-    <div class="seccion-contenido">
+        </div>
 
-        <p class="pequeno">FALTA CADA VEZ MENOS</p>
+    </section>
 
-        <h2>Para nuestro gran día</h2>
 
-        <div class="contador">
+    <!-- ===================== -->
+    <!-- DRESS CODE -->
+    <!-- ===================== -->
 
-            <div class="tiempo">
-                <span id="dias">00</span>
-                <small>DÍAS</small>
+    <section class="dress-code">
+
+        <div class="seccion-contenido">
+
+            <p class="pequeno">DRESS CODE</p>
+
+            <h2>Elegante Sport</h2>
+
+            <div class="separador"></div>
+
+            <p class="texto">
+                Queremos celebrar este día tan especial
+                rodeados de elegancia y estilo.
+            </p>
+
+            <div class="colores">
+
+                <div class="color">
+                    <span class="circulo carbon"></span>
+                    <p>Negro carbón</p>
+                </div>
+
+                <div class="color">
+                    <span class="circulo arena"></span>
+                    <p>Beige arena</p>
+                </div>
+
+                <div class="color">
+                    <span class="circulo crema"></span>
+                    <p>Marfil / crema</p>
+                </div>
+
+                <div class="color">
+                    <span class="circulo oliva"></span>
+                    <p>Verde oliva</p>
+                </div>
+
+                <div class="color">
+                    <span class="circulo salvia"></span>
+                    <p>Verde salvia</p>
+                </div>
+
             </div>
 
-            <div class="tiempo">
-                <span id="horas">00</span>
-                <small>HORAS</small>
+            <p class="mensaje-dress">
+                La elección del color queda a tu gusto.
+                Estos tonos son nuestra paleta sugerida
+                para acompañar la celebración.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ===================== -->
+    <!-- RESERVÁ LA FECHA -->
+    <!-- ===================== -->
+
+    <section class="detalles">
+
+        <div class="seccion-contenido">
+
+            <p class="pequeno">RESERVÁ LA FECHA</p>
+
+            <h2>31 · 12 · 2026</h2>
+
+            <div class="separador"></div>
+
+            <div class="detalle-item">
+
+                <h3>LA CELEBRACIÓN</h3>
+
+                <p>31 de diciembre de 2026</p>
+
+                <p>18:00 hs</p>
+
             </div>
 
-            <div class="tiempo">
-                <span id="minutos">00</span>
-                <small>MINUTOS</small>
+            <div class="detalle-item">
+
+                <h3>EL LUGAR</h3>
+
+                <p>Pizzani</p>
+
+                <p>Posadas, Misiones</p>
+
             </div>
 
-            <div class="tiempo">
-                <span id="segundos">00</span>
-                <small>SEGUNDOS</small>
+            <a
+                href="https://www.google.com/maps/search/?api=1&query=Av.%20Santa%20Catalina%204725%2C%20Posadas%2C%20Misiones"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="boton-mapa">
+
+                VER UBICACIÓN
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ===================== -->
+    <!-- CUENTA REGRESIVA -->
+    <!-- ===================== -->
+
+    <section class="cuenta-regresiva">
+
+        <div class="seccion-contenido">
+
+            <p class="pequeno">FALTA CADA VEZ MENOS</p>
+
+            <h2>Para nuestro gran día</h2>
+
+            <div class="contador">
+
+                <div class="tiempo">
+                    <span id="dias">00</span>
+                    <small>DÍAS</small>
+                </div>
+
+                <div class="tiempo">
+                    <span id="horas">00</span>
+                    <small>HORAS</small>
+                </div>
+
+                <div class="tiempo">
+                    <span id="minutos">00</span>
+                    <small>MINUTOS</small>
+                </div>
+
+                <div class="tiempo">
+                    <span id="segundos">00</span>
+                    <small>SEGUNDOS</small>
+                </div>
+
             </div>
 
         </div>
 
-    </div>
+    </section>
 
-</section>
+
+    <!-- ===================== -->
+    <!-- FOTOS -->
+    <!-- ===================== -->
+
+ <section class="fotos">
     <div class="seccion-contenido">
-
-        <p class="pequeno">RESERVÁ LA FECHA</p>
-
-        <h2>31 · 12 · 2026</h2>
 
         <div class="separador"></div>
 
-        <div class="detalle-item">
-            <h3>CEREMONIA Y FIESTA</h3>
-            <p>31 de diciembre de 2026</p>
-            <p>18:00 hs</p>
-        </div>
+        <p class="etiqueta">RECUERDOS</p>
 
-        <div class="detalle-item">
-            <h3>EL LUGAR</h3>
-            <p>Pizzani</p>
-            <p>Posadas, Misiones</p>
-        </div>
+        <h2>Algunos momentos</h2>
 
-        <button class="boton-mapa">
-            VER UBICACIÓN
-        </button>
+        <div class="galeria">
 
-    </div>
-
-</section> <section class="galeria">
-
-    <div class="seccion-contenido">
-
-        <p class="pequeno">NUESTROS MOMENTOS</p>
-
-        <h2>Un poco de nuestra historia</h2>
-
-        <div class="separador"></div>
-
-        <div class="fotos">
-
-            <div class="foto foto-grande">
-                <img src="images/imagen1.jpg" alt="Carlos y Milagros">
+            <div class="foto">
+               <img src="imagen1.jpg" alt="Carlos y Milagros">
             </div>
 
             <div class="foto">
-                <img src="images/imagen2.jpg" alt="Carlos y Milagros">
+               <img src="imagen2.jpg" alt="Carlos y Milagros">
             </div>
 
             <div class="foto">
-                <img src="images/imagen4.jpg" alt="Carlos y Milagros">
+                <img src="imagen3.jpg" alt="Carlos y Milagros">
+            </div>
+
+            <div class="foto">
+                <img src="imagen4.jpg" alt="Carlos y Milagros">
             </div>
 
         </div>
 
     </div>
-<section class="ubicacion">
-
-    <div class="seccion-contenido">
-
-        <p class="pequeno">EL LUGAR</p>
-
-        <h2>Pizzani</h2>
-
-        <div class="separador"></div>
-
-        <div class="lugar-info">
-
-            <h3>CELEBRACIÓN</h3>
-
-            <p>31 de diciembre de 2026</p>
-            <p>Posadas, Misiones</p>
-
-        </div>
-
-        <div class="icono-lugar">
-            ✦
-        </div>
-
-        <p class="mensaje-lugar">
-            Queremos compartir este día tan especial
-            junto a las personas que forman parte
-            de nuestra historia.
-        </p>
-
-        <a <a 
-    href="https://www.google.com/maps/search/?api=1&query=Av.%20Santa%20Catalina%204725%2C%20Posadas%2C%20Misiones"
-    target="_blank"
-    rel="noopener noreferrer"
-    class="boton-mapa">
-    CÓMO LLEGAR
-</a>
-        </a>
-
-    </div>
-
 </section>
-</section> <script src="script.js"></script>
 
-</body>
-</html>
-<section class="dress-code">
-<section class="tarjeta">
+    <!-- ===================== -->
+    <!-- TARJETA -->
+    <!-- ===================== -->
 
-    <div class="seccion-contenido">
+    <section class="tarjeta">
 
-        <p class="pequeno">TARJETA DE INVITACIÓN</p>
-<section class="confirmacion">
+        <div class="seccion-contenido">
 
-    <div class="seccion-contenido">
+            <p class="pequeno">TARJETA DE INVITACIÓN</p>
 
-        <p class="pequeno">CONFIRMACIÓN DE ASISTENCIA</p>
+            <h2>
+                Queremos<br>
+                compartir este día con vos
+            </h2>
 
-        <h2>¿Nos acompañás?</h2>
+            <div class="separador"></div>
 
-        <div class="separador"></div>
+            <p class="texto">
+                Para acompañarnos en esta celebración,
+                el valor de la tarjeta es de
+                <strong>$45.000</strong> por persona.
+            </p>
 
-        <p class="texto">
-            Nos encantaría compartir este momento
-            tan especial junto a vos.
-        </p>
+            <div class="pago">
 
-        <div class="formulario">
+                <p class="titulo-pago">
+                    DATOS PARA EL PAGO
+                </p>
 
-            <label for="nombre">
-                TU NOMBRE
-            </label>
+                <p class="dato">
 
-            <input
-                type="text"
-                id="nombre"
-                placeholder="Escribí tu nombre"
-            >
+                    <span>ALIAS</span>
 
-            <label for="personas">
-                ¿CUÁNTAS PERSONAS ASISTIRÁN?
-            </label>
+                    <strong>zani.1995</strong>
 
-            <select id="personas">
+                </p>
 
-                <option value="1">1 persona</option>
-                <option value="2">2 personas</option>
-                <option value="3">3 personas</option>
-                <option value="4">4 personas</option>
+                <p class="dato">
 
-            </select>
+                    <span>TITULAR</span>
 
-            <div class="total">
+                    <strong>
+                        Carlos Esteban Zanichelli
+                    </strong>
 
-                <p>TOTAL DE TARJETAS</p>
+                </p>
 
-                <strong id="totalPagar">
-                    $45.000
+            </div>
+
+            <p class="fecha-pago">
+
+                Fecha límite de pago<br>
+
+                <strong>
+                    10 de diciembre de 2026
                 </strong>
 
-            </div>
+            </p>
 
             <button
-                class="boton-confirmar"
-                onclick="confirmarAsistencia()">
+                class="boton-alias"
+                onclick="copiarAlias()">
 
-                CONFIRMAR ASISTENCIA
+                COPIAR ALIAS
 
             </button>
 
-            <p id="mensaje-confirmacion"></p>
-
-        </div>
-
-    </div>
-
-</section>
-        <h2>Queremos<br>compartir este día con vos</h2>
-
-        <div class="separador"></div>
-
-        <p class="texto">
-            Para acompañarnos en esta celebración,
-            el valor de la tarjeta es de
-            <strong>$45.000</strong> por persona.
-        </p>
-
-        <div class="pago">
-
-            <p class="titulo-pago">DATOS PARA EL PAGO</p>
-
-            <p class="dato">
-                <span>ALIAS</span>
-                <strong>zani.1995</strong>
-            </p>
-
-            <p class="dato">
-                <span>TITULAR</span>
-                <strong>Carlos Esteban Zanichelli</strong>
+            <p
+                id="mensaje-copiado"
+                class="mensaje-copiado">
             </p>
 
         </div>
 
-        <p class="fecha-pago">
-            Fecha límite de pago<br>
-            <strong>10 de diciembre de 2026</strong>
-        </p>
+    </section>
 
-        <button class="boton-alias" onclick="copiarAlias()">
-            COPIAR ALIAS
-        </button>
 
-        <p id="mensaje-copiado" class="mensaje-copiado"></p>
+    <!-- ===================== -->
+    <!-- NOS ACOMPAÑÁS -->
+    <!-- ===================== -->
 
-    </div>
+    <section class="confirmacion">
 
-</section>
-    <div class="seccion-contenido">
+        <div class="seccion-contenido">
 
-        <p class="pequeno">DRESS CODE</p>
+            <p class="pequeno">
+                ¿NOS ACOMPAÑÁS?
+            </p>
 
-        <h2>Elegante Sport</h2>
+            <h2>
+                Nos encantaría
+                compartir este día con vos
+            </h2>
 
-        <div class="separador"></div>
+            <div class="separador"></div>
 
-        <p class="texto">
-            Queremos celebrar este día tan especial
-            rodeados de elegancia y estilo.
-        </p>
+            <p class="texto">
+                Confirmá tu asistencia
+                para poder compartir juntos
+                este momento tan especial.
+            </p>
 
-        <div class="colores">
+            <div class="formulario">
 
-            <div class="color">
-                <span class="circulo carbon"></span>
-                <p>Negro carbón</p>
-            </div>
+                <label for="nombre">
+                    TU NOMBRE
+                </label>
 
-            <div class="color">
-                <span class="circulo arena"></span>
-                <p>Beige arena</p>
-            </div>
+                <input
+                    type="text"
+                    id="nombre"
+                    placeholder="Escribí tu nombre"
+                >
 
-            <div class="color">
-                <span class="circulo crema"></span>
-                <p>Marfil / crema</p>
-            </div>
+                <label for="personas">
+                    ¿CUÁNTAS PERSONAS ASISTIRÁN?
+                </label>
 
-            <div class="color">
-                <span class="circulo oliva"></span>
-                <p>Verde oliva</p>
-            </div>
+                <select id="personas">
 
-            <div class="color">
-                <span class="circulo salvia"></span>
-                <p>Verde salvia</p>
+                    <option value="1">
+                        1 persona
+                    </option>
+
+                    <option value="2">
+                        2 personas
+                    </option>
+
+                    <option value="3">
+                        3 personas
+                    </option>
+
+                    <option value="4">
+                        4 personas
+                    </option>
+
+                </select>
+
+
+                <div class="total">
+
+                    <p>TOTAL DE TARJETAS</p>
+
+                    <strong id="totalPagar">
+                        $50.000
+                    </strong>
+
+                </div>
+
+
+                <button
+                    class="boton-confirmar"
+                    onclick="confirmarAsistencia()">
+
+                    CONFIRMAR ASISTENCIA
+
+                </button>
+
+
+                <button
+                    class="boton-no-asistir"
+                    onclick="noPuedoAsistir()">
+
+                    NO PODRÉ ASISTIR
+
+                </button>
+
+
+                <p id="mensaje-confirmacion"></p>
+
             </div>
 
         </div>
 
-        <p class="mensaje-dress">
-            La elección del color queda a tu gusto.
-            
-        </p>
+    </section>
 
-    </div>
 
-</section>
-<section class="versiculo-final">
+    <!-- ===================== -->
+    <!-- VERSÍCULO FINAL -->
+    <!-- ===================== -->
 
-    <div class="seccion-contenido">
+    <section class="versiculo-final">
 
-        <div class="separador"></div>
+        <div class="seccion-contenido">
 
-        <p class="versiculo">
-            “Y sobre todas estas cosas vestíos de amor,
-            que es el vínculo perfecto.”
-        </p>
+            <div class="separador"></div>
 
-        <p class="referencia">
-            Colosenses 3:14
-        </p>
+            <p class="versiculo">
 
-        <p class="nombres-final">
-            Carlos & Milagros
-        </p>
+                “Y sobre todas estas cosas
+                vestíos de amor,
+                que es el vínculo perfecto.”
 
-        <p class="fecha-final">
-            31 · 12 · 2026
-        </p>
+            </p>
 
-    </div>
+            <p class="referencia">
+                Colosenses 3:14
+            </p>
 
-</section>
+            <p class="nombres-final">
+                Carlos & Milagros
+            </p>
+
+            <p class="fecha-final">
+                31 · 12 · 2026
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
