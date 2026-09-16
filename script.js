@@ -68,7 +68,7 @@ function calcularTotal() {
     const personas =
         Number(document.getElementById("personas").value);
 
-    const total = personas * 50000;
+    const total = personas * 45000;
 
     document.getElementById("totalPagar").textContent =
         "$" + total.toLocaleString("es-AR");
@@ -114,7 +114,7 @@ function confirmarAsistencia() {
         return;
     }
 
-    const total = personas * 50000;
+    const total = personas * 45000;
 
     const mensaje =
         "💍 CONFIRMACIÓN DE ASISTENCIA\n\n" +
