@@ -1298,4 +1298,139 @@ button:hover {
     font-size: 10px;
     letter-spacing: 3px;
     color: #d8d0c3;
+}/* =========================
+   MINI CRONOGRAMA
+========================= */
+
+.cronograma {
+    width: 100%;
+    max-width: 500px;
+    margin: 35px auto 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cronograma-item {
+    display: grid;
+    grid-template-columns: 90px 1fr;
+    align-items: center;
+    text-align: left;
+    padding: 18px 20px;
+    background: #f7f3ec;
+    border: 1px solid #e2dbd0;
+}
+
+.cronograma-item span {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 24px;
+    color: #4d483f;
+}
+
+.cronograma-item p {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #958b7d;
+}
+
+@media (max-width: 500px) {
+
+    .cronograma {
+        max-width: 100%;
+        gap: 12px;
+    }
+
+    .cronograma-item {
+        grid-template-columns: 75px 1fr;
+        padding: 16px;
+    }
+
+    .cronograma-item span {
+        font-size: 21px;
+    }
+
+    .cronograma-item p {
+        font-size: 9px;
+    }
+}/* =========================
+   LISTA DE REGALOS
+========================= */
+
+.lista-regalos {
+    min-height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 90px 25px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.lista-regalos .seccion-contenido {
+    width: 100%;
+    max-width: 850px;
+}
+
+.lista-regalos h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(38px, 7vw, 58px);
+    font-weight: normal;
+    color: #4d483f;
+    margin-bottom: 25px;
+}
+
+.texto-regalos {
+    max-width: 600px;
+    margin: 0 auto 45px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #6f685e;
+}
+
+.regalos-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.regalo {
+    min-height: 70px;
+    padding: 18px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f7f3ec;
+    border: 1px solid #e2dbd0;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    text-transform: uppercase;
+    color: #6f685e;
+}
+
+@media (max-width: 600px) {
+
+    .lista-regalos {
+        padding: 80px 18px;
+    }
+
+    .regalos-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .regalo {
+        min-height: 60px;
+        padding: 15px;
+    }
 }
